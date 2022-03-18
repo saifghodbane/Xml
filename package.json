@@ -1,0 +1,14 @@
+{
+  "name": "Teams",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "xml-js": "^1.6.11"
+  },
+  "scripts": {
+    "test": "nodemon  index.js --ignore json",
+    "start": "node app.js"
+  }
+}
